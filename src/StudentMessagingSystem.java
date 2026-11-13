@@ -87,10 +87,9 @@ class UI {
 
 
 class DataStore {
-    static final String ADMIN_USER = "admin", ADMIN_PASS = "admin123";
-
-    static final String URL = "jdbc:mysql://localhost:3306/student_messaging", DB_USER = "root", DB_PASS = "root";
-
+    static final String URL = System.getenv("DB_URL");
+    static final String DB_USER = System.getenv("DB_USER");
+    static final String DB_PASS = System.getenv("DB_PASS");
     static Connection con;
     static String err = null;              
     static ArrayList<String> sections = new ArrayList<>();
