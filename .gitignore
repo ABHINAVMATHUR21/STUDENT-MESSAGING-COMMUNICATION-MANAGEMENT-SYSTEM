@@ -1,19 +1,32 @@
-# IntelliJ
+# INTELLIJ IDEA
 .idea/
 *.iml
+*.ipr
+*.iws
 
-# Compiled Java files
+# JAVA COMPILED FILES
+*.class
 out/
 target/
-*.class
+build/
 
-# Database credentials
+# DATABASE CREDENTIALS
 .env
+.env.*
+!.env.example
 config.properties
+application-local.properties
 
-# Logs
+# LOG FILES
 *.log
 
-# OS files
+
+# OPERATING SYSTEM FILES
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# TEMPORARY FILES
+*.tmp
+*.bak
+*.swp
