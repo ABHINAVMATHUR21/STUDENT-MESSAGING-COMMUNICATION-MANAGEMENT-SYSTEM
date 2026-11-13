@@ -1,0 +1,19 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compiled Java files
+out/
+target/
+*.class
+
+# Database credentials
+.env
+config.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
